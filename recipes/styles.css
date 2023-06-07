@@ -1,0 +1,55 @@
+/*Stylesheet for Recipe Pages */
+
+body{
+  background-color: black;
+}
+
+h1{text-align: center;
+  color: white;
+  background-color: rgba(40%,40%,60%,25%)
+}
+
+h3{
+  text-align: center;
+}
+
+a{
+  color: yellow;
+}
+
+p{
+  color: white;
+  font-family: Times New Roman;
+}
+
+img{
+  height: auto;
+  width: 500px;
+}
+
+ul{
+  color: white;
+  font-family: Times New Roman;
+  list-style: circle;
+  opacity: 10;
+}
+
+ol{
+  color: white;
+  font-family: Times New Roman;
+}
+.subtopics{
+   color: white;
+   opacity: 70%;
+   outline-color: white;
+   outline-style: outset;
+   outline-width: 10%;
+   outline-offset: 40%;
+}
+em{
+  color: white;
+  opacity: 70%;
+}
+strong{
+  color: grey;
+}
