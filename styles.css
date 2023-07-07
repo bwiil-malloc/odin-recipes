@@ -1,7 +1,7 @@
 /*Stylesheet for index(home) page*/
 
 body{
-  background-color: black;
+  background-color: rgb(53, 29, 29);
 }
 
 h1.headtitle{
@@ -17,12 +17,20 @@ h1.headtitle{
 }
 
 a{
-  color: yellow;
+  color: rgb(192, 192, 36);
+  text-decoration: none;
 }
 
-p{
-  color: white;
+.introtext{
+  color: rgb(224, 255, 51);
   font-family: Times New Roman;
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 0 3px 4px black;
+  margin: 20px 30px;
+  border-left: 6px solid red;
+  padding: 5px;
+  border-radius: 30px;
 }
 
 img{
@@ -41,4 +49,5 @@ em{
 
 strong{
   color: grey;
+  text-shadow: 0 4px 2px white;
 }
