@@ -10,8 +10,10 @@ h1.headtitle{
   color: white;
   background-color: rgb(52, 54, 44);
   padding: 30px;
-  margin: 0 150px;
+  margin: 0 200px;
   border-radius: 0 40px;
+  border-right: 2px dashed rgb(255, 255, 3);
+  border-left: 4px dashed rgb(167, 167, 90);
 }
 
 a{
