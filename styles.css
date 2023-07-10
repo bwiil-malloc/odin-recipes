@@ -40,7 +40,7 @@ ul{
   color: yellow;
   font-family: Times New Roman;
   display: inline-block;
-  font-size: large;
+  font-size: 15px;
   list-style: none;
   text-shadow: 0 3px 4px black;
 }
