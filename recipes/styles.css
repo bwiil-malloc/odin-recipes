@@ -13,10 +13,40 @@ h1.headtitle{ text-align: center;
   border-radius: 0 40px;
   border-right: 2px dashed rgb(255, 255, 3);
   border-left: 4px dashed rgb(167, 167, 90);
+  border-top: 4px solid white;
+  border-bottom: 4px solid rgb(173, 169, 169);
 }
 
-h3{
-  text-align: center;
+.intro{
+  margin: 20px 30px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.intro .introspan{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.introtext{
+  color: rgb(224, 255, 51);
+  font-family: Times New Roman;
+  font-size: 15px;
+  text-shadow: 0 3px 4px black;
+  margin: 20px 0px;
+  /*border-left: 6px solid red;*/
+  padding: 5px;
+  border-radius: 30px;
+  display: flex;
+  text-indent: 20px;
+  align-items: flex-start;
+}
+
+.subtopics{
+  color: white;
+  opacity: 70%;
+ display: flex;
 }
 
 a{
@@ -30,7 +60,7 @@ p{
 
 img{
   height: auto;
-  width: 500px;
+  width: 450px;
 }
 
 ul{
@@ -44,14 +74,7 @@ ol{
   color: white;
   font-family: Times New Roman;
 }
-.subtopics{
-   color: white;
-   opacity: 70%;
-   outline-color: white;
-   outline-style: outset;
-   outline-width: 10%;
-   outline-offset: 40%;
-}
+
 em{
   color: white;
   opacity: 70%;
