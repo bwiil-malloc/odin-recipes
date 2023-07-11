@@ -34,19 +34,19 @@ h1.headtitle{ text-align: center;
   font-family: Times New Roman;
   font-size: 15px;
   text-shadow: 0 3px 4px black;
-  margin: 20px 0px;
+  margin: -10px 0px;
   /*border-left: 6px solid red;*/
   padding: 5px;
   border-radius: 30px;
   display: flex;
   text-indent: 20px;
   align-items: flex-start;
+  font-size: 25px;
 }
 
 .subtopics{
   color: white;
-  opacity: 70%;
- display: flex;
+  margin-bottom: px;
 }
 
 a{
