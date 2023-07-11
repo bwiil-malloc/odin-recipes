@@ -2,6 +2,7 @@
 
 body{
   background-color: rgb(53, 29, 29);
+  font-size: 25px;
 }
 
 h1.headtitle{ text-align: center;
@@ -9,7 +10,7 @@ h1.headtitle{ text-align: center;
   color: red;
   background-color: rgb(52, 54, 44);
   padding: 30px;
-  margin: 0 200px;
+  margin: 50px 200px;
   border-radius: 0 40px;
   border-right: 2px dashed rgb(255, 255, 3);
   border-left: 4px dashed rgb(167, 167, 90);
@@ -26,7 +27,7 @@ h1.headtitle{ text-align: center;
 .intro .introspan{
   display: flex;
   flex-direction: column;
-  margin-left: 30px;
+  margin-left: 30px;margin-top: -30px;
 }
 
 .introtext{
@@ -35,7 +36,6 @@ h1.headtitle{ text-align: center;
   font-size: 15px;
   text-shadow: 0 3px 4px black;
   margin: -10px 0px;
-  /*border-left: 6px solid red;*/
   padding: 5px;
   border-radius: 30px;
   display: flex;
@@ -61,6 +61,8 @@ p{
 img{
   height: auto;
   width: 450px;
+  border-radius: 0px 30px;
+  border-left: 2px dashed red;
 }
 
 ul{
