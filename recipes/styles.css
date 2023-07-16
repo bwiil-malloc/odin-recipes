@@ -2,6 +2,9 @@
 
 body{
   background-color: rgb(53, 29, 29);
+}
+
+.container{
   font-size: 25px;
 }
 
@@ -9,13 +12,14 @@ h1.headtitle{ text-align: center;
   text-shadow: 0px 3px 8px rgb(236, 236, 40);
   color: red;
   background-color: rgb(52, 54, 44);
-  padding: 30px;
+  padding: 60px;
   margin: 50px 200px;
   border-radius: 0 40px;
   border-right: 2px dashed rgb(255, 255, 3);
   border-left: 4px dashed rgb(167, 167, 90);
   border-top: 4px solid white;
   border-bottom: 4px solid rgb(173, 169, 169);
+  
 }
 
 .intro{
@@ -35,18 +39,20 @@ h1.headtitle{ text-align: center;
   font-family: Times New Roman;
   font-size: 15px;
   text-shadow: 0 3px 4px black;
-  margin: -10px 0px;
+  margin: -30px 0px;
   padding: 5px;
   border-radius: 30px;
   display: flex;
-  text-indent: 20px;
   align-items: flex-start;
   font-size: 30px;
 }
 
 .subtopics{
-  color: white;
-  margin-bottom: px;
+  color: red;
+  text-shadow: 0 3px 5px yellow;
+  border-left: 3px solid yellow;
+  border-radius: 0 8px;
+  padding: 10px;
 }
 
 a{
@@ -54,8 +60,9 @@ a{
 }
 
 p{
-  color: white;
+  color: rgb(224, 255, 51);
   font-family: Times New Roman;
+  text-shadow: 0 3px 4px black;
 }
 
 img{
@@ -68,19 +75,17 @@ img{
 ul{
   color: white;
   font-family: Times New Roman;
-  list-style: circle;
-  opacity: 10;
+  color: rgb(224, 255, 51);
+  font-family: Times New Roman;
+  text-shadow: 0 3px 4px black;
 }
 
 ol{
-  color: white;
+  color: rgb(224, 255, 51);
   font-family: Times New Roman;
+  text-shadow: 0 3px 4px black;
 }
 
-em{
-  color: white;
-  opacity: 70%;
-}
 strong{
   color: grey;
 }
