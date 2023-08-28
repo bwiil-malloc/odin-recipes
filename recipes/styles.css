@@ -5,7 +5,8 @@ body{
 }
 
 .container{
-  font-size: 25px;
+  font-size: 30px;
+  padding: 20px 2px;
 }
 
 h1.headtitle{ text-align: center;
@@ -13,7 +14,9 @@ h1.headtitle{ text-align: center;
   color: red;
   background-color: rgb(52, 54, 44);
   padding: 60px;
-  margin: 50px 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 150px;
   border-radius: 0 40px;
   border-right: 2px dashed rgb(255, 255, 3);
   border-left: 2px dashed rgb(167, 167, 90);
@@ -23,9 +26,13 @@ h1.headtitle{ text-align: center;
 }
 
 .intro{
-  margin: 20px 30px;
+ /*margin: 20px 30px;*/
+  padding: 40px 0;
+ border-radius: 20px;
   display: flex;
   align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgb(82, 25, 25);
 }
 
 .intro .introspan{
@@ -38,7 +45,7 @@ h1.headtitle{ text-align: center;
 .introtext{
   color: rgb(224, 255, 51);
   font-family: Times New Roman;
-  font-size: 15px;
+  font-size: 30px;
   text-shadow: 0 3px 4px black;
   margin: -30px 0px;
   padding: 5px;
@@ -57,15 +64,17 @@ h1.headtitle{ text-align: center;
   margin-left: 10px;
 }
 
-a{
-  color: yellow;
-}
-
 .ingredients{
   display: flex;
   background-color: rgb(82, 25, 25);
   border-radius: 15px;
-  margin-top: 60px;
+  margin-top: 30px;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
 }
 
 .ingredients .icontainer{
@@ -81,7 +90,8 @@ a{
   background-color: rgb(82, 25, 25);
   border-radius: 10px;
   padding: 10px 3px;
-  margin-top: -15px;
+  margin-top: 60px;
+  margin-left: 20px;
 }
 p{
   color: rgb(224, 255, 51);
@@ -90,7 +100,7 @@ p{
 }
 
 img{
-  height: auto;
+  height: 400px;
   width: 450px;
   border-radius: 0px 30px;
   border-left: 2px dashed red;
@@ -118,9 +128,12 @@ ul{
 
 
 .cookingsteps{
+  margin: 30px 0;
   background-color: rgb(82, 25, 25);
   border-radius: 15px;
   padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 20px;
 }
 
 ol{
@@ -139,3 +152,26 @@ ol{
 strong{
   color: grey;
 }
+
+footer{
+  background-color: rgb(82, 25, 25);
+  border-radius: 20px;
+  padding:15px 0;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  color: red;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+button{
+  background-color: black;
+  margin:20px 0;
+  padding: 15px;
+  }
