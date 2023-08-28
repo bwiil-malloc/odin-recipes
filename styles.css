@@ -4,6 +4,11 @@ body{
   background-color: rgb(53, 29, 29);
 }
 
+.logo{
+  border: 1px solid yellow;
+  border-radius: 70%;
+}
+
 .header{
   display: flex;
   justify-content: center;
@@ -12,7 +17,7 @@ body{
   background-color: black;
   margin: 20px 0;
   margin-bottom: 60px;
-  height: 350px;
+  height: 250px;
 }
 
 /*h1.headtitle{
@@ -42,7 +47,7 @@ a{
   color: rgb(224, 255, 51);
   font-family: Times New Roman;
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   text-shadow: 0 3px 4px black;
   margin: 20px 30px;
   border-left: 6px solid red;
@@ -73,18 +78,20 @@ em{
 
 img{
   height: auto;
-  width: 400px;
+  width: 300px;
 }
 
 .rice{
   display: flex;
   padding: 20px;
   align-items: flex-end;
+  flex-shrink: 0;
 }
 
 .friedrice{
   border-left: 3px dashed red;
   border-radius: 40px 0;
+  width: 400px;
 }
 
 .fr{
@@ -96,11 +103,13 @@ img{
   display: flex;
   padding: 20px;
   align-items: flex-end;
+  flex-shrink: 0;
 }
 
 .afangsoup{
   border-right: 3px dashed red;
   border-radius: 40px 0;
+  width: 400px;
 }
 
 .af{
@@ -111,11 +120,13 @@ img{
   display: flex;
   padding: 20px;
   align-items: flex-end;
+  flex-shrink: 0;
 }
 
 .beans-dodo{
   border-left: 3px dashed red;
   border-radius: 40px 0;
+  width: 400px;
 }
 
 .bd{
